@@ -4,8 +4,15 @@
 	text-align: center;
 }
 .clearfix:after {
-	content: "";
-	display: block;
+	content:'';
+  display:block;
+  width: 100%;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+body {
+background: blue;
 }
 .content {
 	margin: 0 auto;
@@ -14,13 +21,20 @@
 	background: red;
 	border-radius: 50px;
 }
-.main_navi ul li{
-	float: left;
-	list-style:none;
+.main_navi ul{  
+  list-style-type: none;  
+  margin: 0;  
+  padding: 0;  
+
 }
-.menu {
+.main_navi ul li a{
+	float: left;
+	text-decoration: none;
 	display: block;
 	background: white;
 	width: 20%;
 	line-height: 30px;
+	text-align: center;
+}
+.menu {
 }
