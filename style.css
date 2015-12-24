@@ -50,7 +50,10 @@ ul{
 }
 .main {
 	width: 100%;
-	height: 500px;
+}
+.main p {
+	margin: 50px auto;
+	width: 80%;
 }
 footer {
 	height: 100px;
