@@ -3,9 +3,24 @@
 .align_center {
 	text-align: center;
 }
+.clearfix:after {
+	content: "";
+	display: block;
+}
 .content {
 	margin: 0 auto;
 	width: 80%;
 	height: 800px;
 	background: red;
+	border-radius: 50px;
+}
+.main_navi ul li{
+	float: left;
+	list-style:none;
+}
+.menu {
+	display: block;
+	background: white;
+	width: 20%;
+	line-height: 30px;
 }
