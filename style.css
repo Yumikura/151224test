@@ -21,6 +21,11 @@ background: blue;
 	background: red;
 	border-radius: 50px;
 }
+.main_visual {
+	background-image: url(http://placeimg.com/640/480/arch);
+	background-size: cover;
+	height: 250px;
+}
 .main_navi ul{  
   list-style-type: none;  
   margin: 0;  
